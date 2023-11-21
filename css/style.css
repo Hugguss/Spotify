@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+main {
+    padding: 15px;
+    background-color: rgb(17, 19, 19);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: collapse;
+    width: 1200px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+header div span { 
+    float: left;
+    text-align: left;
+    background-color:rgb(9, 36, 36);
+    color: white;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.hastag {
+    width: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.titulo {
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.Album {
+    width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 30px;
+    font-weight: bold;
+}
+.Fecha {
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 30px;
+    font-weight: bold;
+}
+.Duración {
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 30px;
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+}
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+section article div  {
+    color: white;
+}
+.numero {
+    width: 30px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.imagen {
+    width: 70px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nombrecancion {
+    padding-top: 15px;
+    width: 345px;
+}
+.cancion {
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+.autor {
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(155, 153, 153);
+}
+.nombrealbum {
+    width: 260px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: rgb(155, 153, 153);
+}
+.date {
+    padding-top: 15px;
+    font-weight: bold;
+    width: 260px;
+    color: rgb(155, 153, 153);
+
+}
+.tiempo {
+    padding-top: 15px;
+    font-weight: bold;
+    color: rgb(155, 153, 153);
+}
+section article:hover {
+background-color: rgba(194, 194, 194, 0.21);
+}
